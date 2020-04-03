@@ -467,3 +467,19 @@ footer div h3 {
 #faq .faq {
     margin: 2rem 0;
 }
+
+#sitemap {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#sitemap .primary_heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#sitemap img {
+    width: 70%;
+}
