@@ -16,7 +16,7 @@ contactForm.addEventListener('submit', (e)=>{
             let fieldName = capitalize(contactForm.children[i].getAttribute('ID'));
             alert(`${fieldName} is empty`);
             break;
-        } else {
+        } else if(contactForm.children[3].value !== '') {
             if(i === 0) {
                 let name = capitalize(contactForm.children[0].value);
                 alert(`${name} your message has been sumitted`);
